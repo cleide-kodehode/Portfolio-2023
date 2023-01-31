@@ -1,0 +1,109 @@
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    top: 0;
+    position: absolute;
+    background:linear-gradient(20deg, #080334, #770666);
+    display: flex;
+
+}
+
+
+
+.navbar-logo {
+    width: 12px;
+    height: 13vh;
+    margin-top: 5px;
+    display: flex;
+}
+
+
+
+.links {
+    max-height: 90px;
+    flex: 50%;
+    list-style: none;
+    float: right;
+}
+
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+.toggleButton {
+    font-size: 100px;    
+}
+
+
+.toggleButton button {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+#open {
+    height: 100vh;
+}
+
+
+#open .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+#open a {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar a {
+        width: 70px;        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .toggleButton {
+        display: flex;
+    }
+    #close a {
+        display:none;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .toggleButton {
+        display: none;
+    }
+}
+
+.hiddenLinks {
+    display: none;
+}
+
+#open {
+    height: 100px;
+}
+
+#open .links {
+    flex-direction: row;
+}
+
+
+
+
+
+    
+
