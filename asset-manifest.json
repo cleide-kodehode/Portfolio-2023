@@ -1,9 +1,9 @@
 {
   "main.css": "/Portfolio-2023/static/css/main.15b97996.chunk.css",
-  "main.js": "/Portfolio-2023/static/js/main.c7fcecae.chunk.js",
-  "main.js.map": "/Portfolio-2023/static/js/main.c7fcecae.chunk.js.map",
-  "static/js/1.b2e1e850.chunk.js": "/Portfolio-2023/static/js/1.b2e1e850.chunk.js",
-  "static/js/1.b2e1e850.chunk.js.map": "/Portfolio-2023/static/js/1.b2e1e850.chunk.js.map",
+  "main.js": "/Portfolio-2023/static/js/main.1802e7a3.chunk.js",
+  "main.js.map": "/Portfolio-2023/static/js/main.1802e7a3.chunk.js.map",
+  "static/js/1.bb5d0529.chunk.js": "/Portfolio-2023/static/js/1.bb5d0529.chunk.js",
+  "static/js/1.bb5d0529.chunk.js.map": "/Portfolio-2023/static/js/1.bb5d0529.chunk.js.map",
   "runtime~main.js": "/Portfolio-2023/static/js/runtime~main.19a01b20.js",
   "runtime~main.js.map": "/Portfolio-2023/static/js/runtime~main.19a01b20.js.map",
   "static/media/camper.png": "/Portfolio-2023/static/media/camper.6279ae7a.png",
@@ -15,6 +15,6 @@
   "static/media/logo..png": "/Portfolio-2023/static/media/logo..ba8beb8d.png",
   "static/css/main.15b97996.chunk.css.map": "/Portfolio-2023/static/css/main.15b97996.chunk.css.map",
   "index.html": "/Portfolio-2023/index.html",
-  "precache-manifest.d18ce6f78fc1bf59750e582420b3da2d.js": "/Portfolio-2023/precache-manifest.d18ce6f78fc1bf59750e582420b3da2d.js",
+  "precache-manifest.bd94ddf9c1e4466215487a1c98e3c48f.js": "/Portfolio-2023/precache-manifest.bd94ddf9c1e4466215487a1c98e3c48f.js",
   "service-worker.js": "/Portfolio-2023/service-worker.js"
 }
