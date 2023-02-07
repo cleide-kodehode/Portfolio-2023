@@ -11,14 +11,13 @@ import '../styles/Projects.css';
 
 function Projects() {
   return (
-
     <div className="projects">
-      <h1> My personal projects </h1>
+      <h1> My Personal Projects </h1>
     <div className="projectList">
         <ProjectItem name="Parallax Website" image={Parallax} />
-        <ProjectItem name="Drumkit" image={Drumkit} />
         <ProjectItem name="Form" image={Form} />
-        <ProjectItem name="christmas counter down" image={Christmas} />       
+        <ProjectItem name="Drumkit" image={Drumkit} />   
+        <ProjectItem name="Christmas" image={Christmas} />   
     </div>
 
     </div>

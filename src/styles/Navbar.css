@@ -2,20 +2,20 @@
 
 .navbar {
     width: 100%;
-    height: 100px;
     top: 0;
     position: absolute;
+    height: 90px;
     background:linear-gradient(20deg, #080334, #770666);
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
 .navbar-logo {
-    width: 12px;
-    height: 13vh;
-    margin-top: 5px;
+    height: 83px;
+    margin: 5px;
     display: flex;
 }
 
@@ -25,7 +25,11 @@
     max-height: 90px;
     flex: 50%;
     list-style: none;
-    float: right;
+    display: flex;
+}
+
+.links :hover {
+    color:  #fca61f;
 }
 
 

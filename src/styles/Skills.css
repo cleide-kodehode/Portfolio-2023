@@ -1,8 +1,14 @@
 
+
 .skills {
     font-size: larger;
+    margin: 0;
 }
 
+
+.container {
+
+}
 
 
 .list {
@@ -10,5 +16,13 @@
     padding: -55px;
     width: -55px;
     size: -5px;  
+}
+
+.item  {
+
+}
+
+
+.other {
 
 }
