@@ -1,10 +1,6 @@
 
-
 .navbar {
     width: 100%;
-    top: 0;
-    position: absolute;
-    height: 90px;
     background:linear-gradient(20deg, #080334, #770666);
     display: flex;
     justify-content: space-between;
@@ -21,17 +17,9 @@
 
 
 
-.links {
-    max-height: 90px;
-    flex: 50%;
-    list-style: none;
-    display: flex;
-}
-
 .links :hover {
     color:  #fca61f;
 }
-
 
 
 .navbar a {
@@ -71,6 +59,7 @@
     width: 100%;
     text-align: center;
 }
+
 
 @media only screen and (max-width: 900px) {
     .navbar a {

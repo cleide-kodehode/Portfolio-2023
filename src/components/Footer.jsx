@@ -6,17 +6,15 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <footer>     
-      <div className="footer">   
+    < footer className="footer">              
         <div className="socialMedia">
-        <FaLinkedin className="footerIcon1"/>
-        <FaGithub className="footerIcon2" />
-        <FaGoogle className="footerIcon3" />
+        <FaLinkedin className="footerIcon1 footerIcon"/>
+        <FaGithub className="footerIcon2 footerIcon" />
+        <FaGoogle className="footerIcon3 footerIcon" />
         </div>            
-        <p> Copyright  {new Date().getFullYear()} Cleide Florisbella. All Rights Reserved. </p>     
-        </div>
-      
-    </footer>    
+        <p> Copyright {new Date().getFullYear()} Cleide Florisbella. All Rights Reserved. </p>   
+        
+      </footer>    
   );
 }
 

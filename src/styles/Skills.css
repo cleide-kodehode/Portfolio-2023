@@ -1,14 +1,17 @@
 
 
 .skills {
-    font-size: larger;
-    margin: 0;
+    width: 100%;
+    padding: 100px 0;    
 }
 
 
-.container {
-
+h2  {
+    font-size: 35px;
+    color: #9800D2;
+    padding: 2px
 }
+
 
 
 .list {
@@ -18,11 +21,3 @@
     size: -5px;  
 }
 
-.item  {
-
-}
-
-
-.other {
-
-}

@@ -32,7 +32,7 @@ function Navbar() {
           <img src={Logo} alt="" />
         </div>
 
-        <nav className="Links">
+        <nav className="links">
             <Link to= "/"> Home </Link> 
             <Link to= "/about"> About </Link> 
             <Link to= "/projects"> Projects </Link> 

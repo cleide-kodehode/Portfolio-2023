@@ -6,16 +6,16 @@ import Camper from "../img/camper.png";
 
 function Home() {
   return (
-    <main>
+    <main className="home-main">
       <h2> Hey there!<span role="img" aria-label="Grinning Face"> &#128512;</span> </h2>
+      <img src= {Camper} className="home_img"  alt="solo female camper" />
       <h1> I'm Cleide Florisbella</h1>
       <p>
-         Passionate about photography, webdesign and country music. <br /> 
-         Interested in languages, travel and camping life. <br />
-         A juice lover who drinks ginger tea in the cold winter. <br />
+         Passionate about photography, webdesign and country music. 
+         Interested in languages, travel and camping life. 
+         A juice lover who drinks ginger tea in the cold winter. 
          Love Thai food and fotball⚽. 
       </p>
-          <img src= {Camper} className="home_img"  alt="solo female camper" />
     </main>
   )
 }

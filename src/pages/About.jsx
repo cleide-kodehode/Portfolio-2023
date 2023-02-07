@@ -14,8 +14,7 @@ function About() {
 
         <div className="about_img">        
             <img src={Camp} alt="camp tent in the forest at night"/>          
-        </div>
-         
+        </div>         
      
         <div className="about_content">
           <p>

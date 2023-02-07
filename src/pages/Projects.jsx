@@ -11,7 +11,7 @@ import '../styles/Projects.css';
 
 function Projects() {
   return (
-    <div className="projects">
+    <main className="projects-main">
       <h1> My Personal Projects </h1>
     <div className="projectList">
         <ProjectItem name="Parallax Website" image={Parallax} />
@@ -20,7 +20,7 @@ function Projects() {
         <ProjectItem name="Christmas" image={Christmas} />   
     </div>
 
-    </div>
+    </main>
     
   );
 }
