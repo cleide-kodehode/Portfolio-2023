@@ -1,74 +1,73 @@
 
-/*
-import React from 'react'
 import "../styles/Skills.css";
 
-import Html from '../img/html.png';
+
+import Html from '../img/Html.png';
 import Css from '../img/Css.png';
-import Javascript from '../img/javascript.png';
-import React from '../img/react';
-import Figma from '../img/figma.png';
-import Canva from '../img/canva.png';
-import Github from '../img/github.png';
-import Git from '../img/git.png';
-
-
-
-
+import React from '../img/React.png';
+import Javascript from '../img/Javascript.png';
+import Figma from '../img/Figma.png';
+import Canva from '../img/Canva.png';
+import Design from '../img/Design.png';
+import Github from '../img/Github.png';
+import Git from '../img/Git.png'; 
 
 
 function Skills() {
   return (
-    <div className="skills">      
-      <h1> My Skills </h1>
+    <div className="skills_container">
+      <h1> My skills </h1>
+      <div>
+        <img src={Html} alt="Html logo" />
+        <p> HTML </p>
+      </div>
 
-      <ul className="list">
-        <li>
-          <img src={Html}  alt="Html logo" />
-          <p> HTML </p>
-        </li>
+      <div>
+        <img src={Css} alt="Css logo" />
+        <p> CSS </p>
+      </div>
 
-        <li>
-          <img src={Css} alt="Css logo" />
-          <p> CSS </p>
-        </li> 
+      <div>
+        <img src={Javascript} alt="Javascript logo" />
+        <p> JavaScript </p>
+    </div> 
 
-        <li>
-          <img src={Javascript} alt="Javascript logo" />
-          <p> JavaScript </p>      
-        </li> 
+    
+    <div>
+      <img src={React}  alt="React logo" />
+      <p> React </p>
+    </div>    
 
-        <li>
-          <img src={React} alt="React logo" />
-          <p> React </p>      
-        </li> 
-
-        <li>
-          <img src={Figma} alt="Figma logo" />
-          <p> Figma Design </p>
-        </li>
-
-        <li>
-          <img src={Canva} alt="Canva Design logo" />
-          <p> Canva Design </p>
-        </li>
-
-        <li>
-          <img src={Github} alt="GitHub logo" />
-          <p> Github </p>
-        </li>
-
-        <li> 
-          <img src={Git} alt="Git logo" />
-           <p> Git </p>
-        </li>       
-      </ul>
-
+    <div>
+      <img src={Figma} alt="Figma Design logo" />
+      <p> Figma </p>
     </div>  
+
+    <div>
+      <img src={Canva} alt="Canva design logo" />
+      <p> Canva Design </p>
+    </div>  
+
+    <div>
+      <img src={Design} alt="Design Thinking" />
+      <p> Design Thinking </p>
+    </div>  
+
+    <div>
+      <img src={Github} alt="Github logo" />
+      <p> Github </p>
+    </div>  
+
+    <div>
+      <img src={Git} alt="Git logo" />
+      <p> Git </p>
+    </div>  
+
+  </div>
       
   );
 }
 
 export default Skills
 
-*/
+

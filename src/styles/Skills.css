@@ -1,23 +1,33 @@
 
 
-.skills {
+.skills_container  {
     width: 100%;
-    padding: 100px 0;    
+    padding: 1em;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
 }
 
 
-h2  {
-    font-size: 35px;
-    color: #9800D2;
-    padding: 2px
+
+.skills_container h1  {  
+    font-size: 55px;
+    margin-bottom: .5em;
+    color: #7b7b7b;
+   
 }
 
 
-
-.list {
-    font-size: large;
-    padding: -55px;
-    width: -55px;
-    size: -5px;  
+.skills_container p  {
+    font-size: 1.5em; 
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    color:  
 }
+ 
+
+
 

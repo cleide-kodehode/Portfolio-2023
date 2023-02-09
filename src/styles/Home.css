@@ -1,24 +1,19 @@
 
 
  h2 {
-
     color: #7d7789;  
     font-weight: 300; 
     font-size: 70px;
     margin: 35px;
-     
 }
 
 
  h1 {    
     font-weight: 700;
-    margin: 35px;  
-    
+    margin: 35px;      
     color: #823d78; 
     font-size: 85px;
     font-weight: 700;
-    
- 
 }
 
 
@@ -35,6 +30,7 @@
    shape-outside: circle();
    float: right;   
 }
+
 
 .home-main  {
     max-width: 1000px;

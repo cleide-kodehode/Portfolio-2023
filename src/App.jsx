@@ -9,6 +9,7 @@ import Skills from './pages/Skills';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
+import Form from "./components/Form";
 
 
 
@@ -24,9 +25,11 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Form />} />
         </Routes>
         <Footer />
-      </Router>      
+      </Router>     
+   
     </div>
   );
 }
