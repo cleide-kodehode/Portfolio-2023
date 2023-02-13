@@ -5,25 +5,25 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 15px 0px;   
+    padding: 1px 0px;   
 }
 
 
-.socialMedia  {  
-    color: white;         
+.socialMedia  {          
     font-size: 65px;  
     display: flex;
     align-items: center;
     justify-content:space-between;  
 }
 
+
 .footerIcon1:hover {
-    color:#2481f3;
-   
+    color: #0fe3ff;   
 }
 
+
 .footerIcon2:hover  {
-    color: #7400b8;
+    color: white;  
 }
 
 

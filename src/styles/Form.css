@@ -1,13 +1,38 @@
 
-.container{
+/* Social follow */
+.social-title {
+  font-size: 52px;
+  font-weight: 500;
+  font-style: roboto;
+  color: #eee;
+  margin-top: -95px;
+}
+
+/* social icon */
+.linkedin-social {
+  font-size: 80px;
+  color: #0fe3ff;  
+  margin-top: 20px; 
+}
+
+.linkedin-social:hover  {
+  color: #eee;
+}
+
+
+
+/* styling the Contact-Form */
+.contact-container{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #121212;
-    color: #FFF;
-    padding: 14px;
+    color: #FFF; 
+    
+   
+
   }
   
   .title{
@@ -17,6 +42,7 @@
   .form{
     max-width: 600px;
     width: 100%;
+    
     display: flex;
     flex-direction: column;
   }
@@ -38,17 +64,18 @@
     resize: none;
   }
   
-  .button{
+  .button  {
     height: 34px;
     border-radius: 4px;
     border: 0;
     cursor: pointer;
     background-color: #0fdbff;
-    font-size: 18px;
-    transition: background-color, transform 0.8s;
+    font-size: 18px;    
+    transition: background-color, transform 0.8s;    
   }
   
   .button:hover{
     background-color: #0fe3ff;
     transform: scale(1.01);
   }
+

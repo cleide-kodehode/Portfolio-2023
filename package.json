@@ -17,6 +17,9 @@
   "@emailjs/browser": "^3.10.0",
   
     
+  "@iconify/react": "^4.1.0",
+  
+    
   "@mui/material": "^5.11.6",
   
     

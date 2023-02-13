@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
 import Emailjs from '@emailjs/browser/'
+import { FaLinkedin } from 'react-icons/fa';
 import "../styles/Form.css";
 
 
@@ -28,7 +29,7 @@ function sendEmail(e) {
 
 
 
-  Emailjs.send("gmailMessage", "template_36xzzsm", "templateParams", "z2vhi0C3RsaOCV9XF")
+  Emailjs.send("gmailMessage", "template_oeq55ih", templateParams, "z2vhi0C3RsaOCV9XF")
   .then((response) => {
     console.log("EMAIL SENT", response.status, response.text)
     setName('')
@@ -41,8 +42,14 @@ function sendEmail(e) {
 
 }
 
-  return (
-    <div className="container">
+  return (       
+    <div className="contact-container">
+      <h3 className='social-title'> Check out my Linkedin </h3>
+      <a href="https://www.linkedin.com/in/cleide-florisbella/"
+      className='linkedin-social'> 
+      <FaLinkedin />  
+      </a>
+    <div>  
       <h1 className="title"> Contact me </h1>
 
       <form className="form" onSubmit={sendEmail} >
@@ -72,8 +79,12 @@ function sendEmail(e) {
         <input className="button" type="submit" value="Send" />
 
       </form>      
-    </div>     
+    </div>  
+  </div> 
+  
+  
+
   );
-}
+  }
 
 export default Form

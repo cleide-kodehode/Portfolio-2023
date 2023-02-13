@@ -1,7 +1,6 @@
 
-
 .about {
-    width: 100%;   
+    padding: 5px 0;
 }
 
 
@@ -11,45 +10,83 @@
 
 
    /* h2 */ 
-.about_title  {
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: #971561;
+.about-title h2 {    
+    font-size: 54px;    
+    color: #971561;    
+    text-align: center;  
+    margin-bottom: -9px;    
 }
+
 
       /* p */
-.about_content  {
-    font-size: 22px;   
-    line-height: 1.3;  
-    color: #7d7789;    
+.about-content  {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0px auto;
+    line-height: 29px;
+    width: 100%;
+    border-style: solid;
+    border-width: 11px;
+    border-color:   #0fdbff;
 }
 
 
-.about_img  {
-    width: 114vh; 
-    position: relative;
-    display: inline;
-    float: left;   
+.about-img  {
+    object-fit: contain;  
 }
 
+.about-content p {
+    padding-left:  23px;
+}
 
-@media only screen and (max-width:960px) {
-    .about_img {        
-        float: none;
-        height: 300px;
-        object-fit: contain;
-    }
-
-    .about {
-        width: 100%;
-        display: flex;
+@media only screen and (max-width:600px) {
+    .about-content {        
         flex-direction: column;
-        justify-content:center;
     }
 
-    h1 {
-        font-size: 30px;
+    .about-content .about-img {
+        width: 100%;
+        margin: 0 auto;        
     }
 }
+
+
+  /* language skills */
+.about-skills {
+    width: 100%;
+    padding: 1em;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.skills-icon  {    
+    font-size: 60px;
+}
+
+
+.skills-icon-canva  {
+    font-size: 60px;
+    background-color: aqua;  
+}
+
+
+.skills-icon-github  {
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+
+.skills-icon-git  {
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+
+
 
 
