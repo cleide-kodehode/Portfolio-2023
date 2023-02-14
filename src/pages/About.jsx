@@ -5,7 +5,6 @@ import Camping from '../img/camping.png';
 import { Icon } from '@iconify/react';
 
 
-
 function About() {
   return (
     <main className="about">      

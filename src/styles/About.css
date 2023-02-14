@@ -1,11 +1,14 @@
 
 .about {
     padding: 5px 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
 .container {   
     background: #EEF7FF;    
+    
 }
 
 
