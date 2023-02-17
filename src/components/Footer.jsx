@@ -8,9 +8,11 @@ function Footer() {
   return (
     < footer className="footer">              
       <div className="socialMedia">
-        <a href="https://www.linkedin.com/in/cleide-florisbella/"> 
-        <FaLinkedin className="footerIcon1 footerIcon"/>
-        <FaGithub className="footerIcon2 footerIcon" /> 
+        <a href="https://www.linkedin.com/in/cleide-florisbella/">
+        <FaLinkedin className="footerIcon1 footerIcon"/>        
+        </a>
+        <a href="https://github.com/cleide-kodehode">
+        <FaGithub className="footerIcon2 footerIcon" />   
         </a>
       </div>            
         <p> Copyright {new Date().getFullYear()} Cleide Florisbella. All Rights Reserved. </p>           

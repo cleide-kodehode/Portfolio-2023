@@ -1,0 +1,43 @@
+
+.project  {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  .project h1  {
+    margin: 1px;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-color: #0fe3ff;  
+    color:  #82076d; 
+   
+  }
+
+
+  .project img  {
+    width: 600px;
+    border-radius: 10px;
+  }
+
+  
+  .project p  {
+    font-size: 20px;
+    margin: 3px;
+    color: #630753; 
+  }
+  
+  .project p span {
+    color: #7d7789;
+    font-size: 20px;
+  }
+  
+
+  .project svg  {
+    font-size: 40px;
+    color: #823d78;
+  }
