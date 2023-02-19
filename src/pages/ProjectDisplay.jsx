@@ -20,7 +20,7 @@ function ProjectDisplay() {
          Skills:<span> {project.skills} </span>
       </p>
      
-      <a href="projectdoc.github">
+      <a href={project.github}>
       <FaGithub className="footerIcon2 footerIcon" />          
       </a>
 
