@@ -80,9 +80,7 @@ function sendEmail(e) {
 
       </form>      
     </div>  
-  </div> 
-  
-  
+  </div>  
 
   );
   }

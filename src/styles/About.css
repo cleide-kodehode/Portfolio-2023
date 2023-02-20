@@ -13,10 +13,10 @@
 
    /* h2 */ 
 .about-title h2 {    
-    font-size: 54px;    
+    font-size: 50px;    
     color: #971561;    
     text-align: center;      
-    margin-bottom: -10px;     
+    margin-bottom: -5px;     
 }
 
 
@@ -64,6 +64,20 @@
     display: flex; 
     flex-direction: row;
     justify-content: space-around;    
+}
+
+
+
+.about-skills h1  {
+    font-size: 26px;
+    margin: -2px;
+    padding: 0.7em;
+    color: #7d7789;
+    text-decoration-line: underline;
+    text-decoration-color: #0fe3ff;
+    text-decoration-style: double;
+    
+    
 }
 
 
