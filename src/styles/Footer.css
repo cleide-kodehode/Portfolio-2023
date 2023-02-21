@@ -13,13 +13,12 @@
     font-size: 65px;  
     display: flex;
     align-items: center;
-    justify-content:space-between;   
+    justify-content:space-between; 
 }
 
 
 .footerIcon1:hover {
     color: #0fe3ff;   
-    
 }
 
 
@@ -32,6 +31,7 @@
     cursor: pointer;
     margin: 0px 5px;
     height: 40px;
+    color: bisque;
 }
 
 

@@ -3,7 +3,7 @@ import Parallax from '../img/parallax.png';
 import Ecommerce from '../img/ecommerce.png';
 import Drumkit from '../img/Drumkit.png';
 import Form from '../img/Form.png';
-import Christmas from '../img/christmas.png';
+
 
 import "../styles/ProjectDisplay.css";
 
@@ -34,16 +34,15 @@ export const ProjectList = [
         name: "React Form",
         image: Form,
         skills: "HTML, CSS, JavaScript & React",
-        /*
-        live: "",
-        github: "",
+        live: "https://cleide-kodehode.github.io/Form-in-React/",
+        github: "https://github.com/cleide-kodehode/Form-in-React",
     },
-    {        
+    {    
+         /*    
         name: "Christmas Counter Down",
         image: Christmas,
         skills: "HTML, CSS & JavaScript",
-        /*
-        live:
+        live: "",
         github: "https://github.com/cleide-kodehode/christmas-countdown-timer",
         */
     },

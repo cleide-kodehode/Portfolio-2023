@@ -2,6 +2,7 @@ import React from 'react'
 import {useState} from 'react';
 import Emailjs from '@emailjs/browser/'
 import { FaLinkedin } from 'react-icons/fa';
+
 import "../styles/Form.css";
 
 

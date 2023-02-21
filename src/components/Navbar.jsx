@@ -7,7 +7,6 @@ import Logo from '../img/logo..png';
 import {MdOutlineReorder} from "react-icons/md";
 
 
-
 function Navbar() {
 
     const [expandNavbar, setExpandNavbar] = useState(false);
@@ -18,26 +17,25 @@ function Navbar() {
       setExpandNavbar(false)
     }, [location]);
 
-  return (    
-        <div className="navbar" id={expandNavbar ? "open" : "close"}>
-        <div className="toggleButton">
-           <button onClick= {() => {
-            setExpandNavbar((prev) => !prev);
+  return (  
+    <div className="navbar" id={expandNavbar ? "open" : "close"}>
+      <div className="toggleButton">
+        <button onClick= {() => {
+          setExpandNavbar((prev) => !prev);
           }}>
-            <MdOutlineReorder /></button>
-       </div>
+          <MdOutlineReorder /></button>
+      </div>
 
+      <div className="navbar-logo">
+        <img src={Logo} alt="project logo" />
+      </div>
 
-       <div className="navbar-logo">
-          <img src={Logo} alt="project logo" />
-        </div>
-
-        <nav className="links">
-            <Link to= "/"> Home </Link> 
-            <Link to= "/about"> About </Link> 
-            <Link to= "/projects"> Projects </Link>  
-            <Link to= "/contact"> Contact </Link>        
-        </nav>      
+      <nav className="links">
+        <Link to= "/"> Home </Link> 
+        <Link to= "/about"> About </Link> 
+        <Link to= "/projects"> Projects </Link>  
+        <Link to= "/contact"> Contact </Link>        
+      </nav>      
     </div>
   );
 }
