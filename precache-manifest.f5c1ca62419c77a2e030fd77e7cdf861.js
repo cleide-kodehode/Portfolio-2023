@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f09e459e636caffb4020",
-    "url": "/Portfolio-2023/static/css/main.5e494e5d.chunk.css"
+    "revision": "daf016c66bb78ce5115f",
+    "url": "/Portfolio-2023/static/css/main.ca737b1e.chunk.css"
   },
   {
-    "revision": "f09e459e636caffb4020",
-    "url": "/Portfolio-2023/static/js/main.f09e459e.chunk.js"
+    "revision": "daf016c66bb78ce5115f",
+    "url": "/Portfolio-2023/static/js/main.daf016c6.chunk.js"
   },
   {
     "revision": "eb06fc72655420d188f9",
@@ -60,23 +60,19 @@ self.__precacheManifest = [
     "url": "/Portfolio-2023/static/media/ecommerce.3e30ec9b.png"
   },
   {
-    "revision": "85f27e476ffd313b05f88a3c99728e20",
-    "url": "/Portfolio-2023/static/media/Drumkit.85f27e47.png"
+    "revision": "0482f780bdaa5e3f315ee910a1136054",
+    "url": "/Portfolio-2023/static/media/Drumkit.0482f780.png"
   },
   {
-    "revision": "48c1322598cbb26b8016a30816f3fdd7",
-    "url": "/Portfolio-2023/static/media/Form.48c13225.png"
+    "revision": "c4d392d0f8cb1b4a733f16025cd2d8cd",
+    "url": "/Portfolio-2023/static/media/Form.c4d392d0.png"
   },
   {
     "revision": "ba8beb8d356846c3a334388963306118",
     "url": "/Portfolio-2023/static/media/logo..ba8beb8d.png"
   },
   {
-    "revision": "2f07722d6074a1cfe7d5fa51c39d7872",
-    "url": "/Portfolio-2023/static/media/christmas.2f07722d.png"
-  },
-  {
-    "revision": "8a7afec51f7f9b7a2b7c8e948b43322d",
+    "revision": "e4d449ade99e78962f9236dca5066d01",
     "url": "/Portfolio-2023/index.html"
   }
 ];
