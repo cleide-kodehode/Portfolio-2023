@@ -3,7 +3,7 @@ import Parallax from '../img/parallax.png';
 import Ecommerce from '../img/ecommerce.png';
 import Drumkit from '../img/Drumkit.png';
 import Form from '../img/Form.png';
-import Timetable from "../img/Timetable.png";
+import Pizzashop from "../img/pizzashop.png";
 
 
 import "../styles/ProjectDisplay.css";
@@ -40,7 +40,7 @@ export const ProjectList = [
     },
     {
         name: "Pizza Landing Page",
-        image: pizzashop,
+        image: Pizzashop,
         skills: "Html & Css",
         live: "https://cleide-kodehode.github.io/Pizza-Landing-Page/",
         github: "https://github.com/cleide-kodehode/Pizza-Landing-Page",
