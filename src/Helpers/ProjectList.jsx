@@ -46,14 +46,4 @@ export const ProjectList = [
         github: "https://github.com/cleide-kodehode/Pizza-Landing-Page",
     },
 
-
-    {    
-         /*    
-        name: "Christmas Counter Down",
-        image: Christmas,
-        skills: "HTML, CSS & JavaScript",
-        live: "",
-        github: "https://github.com/cleide-kodehode/christmas-countdown-timer",
-        */
-    },
 ];
