@@ -3,6 +3,7 @@ import Parallax from '../img/parallax.png';
 import Ecommerce from '../img/ecommerce.png';
 import Drumkit from '../img/Drumkit.png';
 import Form from '../img/Form.png';
+import Timetable from "../img/Timetable.png";
 
 
 import "../styles/ProjectDisplay.css";
@@ -37,6 +38,15 @@ export const ProjectList = [
         live: "https://cleide-kodehode.github.io/Form-in-React/",
         github: "https://github.com/cleide-kodehode/Form-in-React",
     },
+    {
+        name: "Pizza Landing Page",
+        image: pizzashop,
+        skills: "Html & Css",
+        live: "https://cleide-kodehode.github.io/Pizza-Landing-Page/",
+        github: "https://github.com/cleide-kodehode/Pizza-Landing-Page",
+    },
+
+
     {    
          /*    
         name: "Christmas Counter Down",
