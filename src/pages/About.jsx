@@ -5,7 +5,7 @@ import "../styles/About.css";
 import Html from '../img/html.svg';
 import Css from '../img/css.svg';
 import Js from '../img/js.svg';
-import ReactIcon from '../img/reactIcon.svg';
+import Reacticon from '../img/reacticon.svg';
 import Figma from '../img/figma.svg';
 import Canva from '../img/Canva.svg';
 import Github from '../img/Github.svg';
@@ -48,7 +48,7 @@ function About() {
           </div>
 
           <div>
-            <img src={ReactIcon} alt="React logo" />
+            <img src={Reacticon} alt="React logo" />
           </div>
 
           <div>   
