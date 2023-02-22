@@ -1,7 +1,7 @@
 {
   "main.css": "/Portfolio-2023/static/css/main.345785b8.chunk.css",
-  "main.js": "/Portfolio-2023/static/js/main.b748684c.chunk.js",
-  "main.js.map": "/Portfolio-2023/static/js/main.b748684c.chunk.js.map",
+  "main.js": "/Portfolio-2023/static/js/main.296bb634.chunk.js",
+  "main.js.map": "/Portfolio-2023/static/js/main.296bb634.chunk.js.map",
   "static/js/1.122b3641.chunk.js": "/Portfolio-2023/static/js/1.122b3641.chunk.js",
   "static/js/1.122b3641.chunk.js.map": "/Portfolio-2023/static/js/1.122b3641.chunk.js.map",
   "runtime~main.js": "/Portfolio-2023/static/js/runtime~main.19a01b20.js",
@@ -10,7 +10,7 @@
   "static/media/html.svg": "/Portfolio-2023/static/media/html.98450a32.svg",
   "static/media/css.svg": "/Portfolio-2023/static/media/css.06bbc274.svg",
   "static/media/js.svg": "/Portfolio-2023/static/media/js.c85c484a.svg",
-  "static/media/reactIcon.svg": "/Portfolio-2023/static/media/reactIcon.1ca61e93.svg",
+  "static/media/reacticon.svg": "/Portfolio-2023/static/media/reacticon.33d467af.svg",
   "static/media/figma.svg": "/Portfolio-2023/static/media/figma.1159fe40.svg",
   "static/media/Canva.svg": "/Portfolio-2023/static/media/Canva.90928971.svg",
   "static/media/Github.svg": "/Portfolio-2023/static/media/Github.4e9aed05.svg",
@@ -23,6 +23,6 @@
   "static/media/logo..png": "/Portfolio-2023/static/media/logo..ba8beb8d.png",
   "static/css/main.345785b8.chunk.css.map": "/Portfolio-2023/static/css/main.345785b8.chunk.css.map",
   "index.html": "/Portfolio-2023/index.html",
-  "precache-manifest.02131e5e3e8f5f6b7489b26ad6da8023.js": "/Portfolio-2023/precache-manifest.02131e5e3e8f5f6b7489b26ad6da8023.js",
+  "precache-manifest.e104869dce5851240ba2475fbe9eb69e.js": "/Portfolio-2023/precache-manifest.e104869dce5851240ba2475fbe9eb69e.js",
   "service-worker.js": "/Portfolio-2023/service-worker.js"
 }
