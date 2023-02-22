@@ -15,8 +15,7 @@ import Git from '../img/Git.svg';
 
 function About() {
   const url= 
-  'https://jobloop.no/kodehode-modellen'
-  
+  'https://jobloop.no/kodehode-modellen'  
   
   return (
     <main className="about">      
@@ -35,7 +34,7 @@ function About() {
         </div>           
         
         <div className='about-skills'>
-          <h1> My skills </h1>
+          <h1> My skills ⇢ </h1>
           <div> 
            <img src={Html} alt="Html logo" />
           </div>
