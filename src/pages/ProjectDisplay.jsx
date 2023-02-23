@@ -2,7 +2,7 @@
 import React from 'react'
 import {useParams} from 'react-router-dom';
 import {ProjectList} from '../Helpers/ProjectList';
-import { FaGithub } from "react-icons/fa";
+import Gith from '../img/gith.svg';
 
 import '../styles/ProjectDisplay.css';
 
@@ -21,7 +21,7 @@ function ProjectDisplay() {
       </p>
      
       <a href={project.github}>
-      <FaGithub className="footerIcon2 footerIcon" />          
+      <img src={Gith} alt="GitHub logo" className="footerIcon2 footerIcon"/>          
       </a>
 
     </div>
