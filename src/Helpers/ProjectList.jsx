@@ -6,8 +6,6 @@ import Drumkit from '../img/Drumkit.png';
 import Form from '../img/Form.png';
 import Pizzashop from "../img/pizzashop.png";
 
-
-
 import "../styles/ProjectDisplay.css";
 
 

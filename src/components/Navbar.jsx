@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation,useNavigate } from 'react-router-dom';
 import "../styles/Navbar.css";
 import { useState } from "react";
 import Logo from '../img/logo..png';
@@ -8,6 +8,7 @@ import {MdOutlineReorder} from "react-icons/md";
 
 
 function Navbar() {
+  const navigate=useNavigate();
 
     const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -17,6 +18,11 @@ function Navbar() {
       setExpandNavbar(false)
     }, [location]);
 
+  function goHome(){
+    navigate("/");
+  }
+   
+  
   return (  
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
@@ -27,7 +33,7 @@ function Navbar() {
       </div>
 
       <div className="navbar-logo">
-        <img src={Logo} alt="project logo" />
+        <img src={Logo} alt="project logo" onClick={goHome} />
       </div>
 
       <nav className="links">
