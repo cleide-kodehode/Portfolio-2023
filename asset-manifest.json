@@ -1,9 +1,9 @@
 {
-  "main.css": "/Portfolio-2023/static/css/main.a9215d55.chunk.css",
-  "main.js": "/Portfolio-2023/static/js/main.8e665796.chunk.js",
-  "main.js.map": "/Portfolio-2023/static/js/main.8e665796.chunk.js.map",
-  "static/js/1.2f167a31.chunk.js": "/Portfolio-2023/static/js/1.2f167a31.chunk.js",
-  "static/js/1.2f167a31.chunk.js.map": "/Portfolio-2023/static/js/1.2f167a31.chunk.js.map",
+  "main.css": "/Portfolio-2023/static/css/main.eb2eb3b6.chunk.css",
+  "main.js": "/Portfolio-2023/static/js/main.abba187f.chunk.js",
+  "main.js.map": "/Portfolio-2023/static/js/main.abba187f.chunk.js.map",
+  "static/js/1.34848fc0.chunk.js": "/Portfolio-2023/static/js/1.34848fc0.chunk.js",
+  "static/js/1.34848fc0.chunk.js.map": "/Portfolio-2023/static/js/1.34848fc0.chunk.js.map",
   "runtime~main.js": "/Portfolio-2023/static/js/runtime~main.19a01b20.js",
   "runtime~main.js.map": "/Portfolio-2023/static/js/runtime~main.19a01b20.js.map",
   "static/media/camper.png": "/Portfolio-2023/static/media/camper.581d88e4.png",
@@ -22,8 +22,9 @@
   "static/media/Form.png": "/Portfolio-2023/static/media/Form.c4d392d0.png",
   "static/media/pizzashop.png": "/Portfolio-2023/static/media/pizzashop.c0fa683e.png",
   "static/media/logo..png": "/Portfolio-2023/static/media/logo..ba8beb8d.png",
-  "static/css/main.a9215d55.chunk.css.map": "/Portfolio-2023/static/css/main.a9215d55.chunk.css.map",
+  "static/media/gith.svg": "/Portfolio-2023/static/media/gith.4cf03395.svg",
+  "static/css/main.eb2eb3b6.chunk.css.map": "/Portfolio-2023/static/css/main.eb2eb3b6.chunk.css.map",
   "index.html": "/Portfolio-2023/index.html",
-  "precache-manifest.859fabc2074466914e09ecb577f3df7e.js": "/Portfolio-2023/precache-manifest.859fabc2074466914e09ecb577f3df7e.js",
+  "precache-manifest.0b793793375d917b36b1963616aaebf5.js": "/Portfolio-2023/precache-manifest.0b793793375d917b36b1963616aaebf5.js",
   "service-worker.js": "/Portfolio-2023/service-worker.js"
 }
