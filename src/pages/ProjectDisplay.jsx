@@ -2,7 +2,7 @@
 import React from 'react'
 import {useParams} from 'react-router-dom';
 import {ProjectList} from '../Helpers/ProjectList';
-import Gith from '../img/gith.svg';
+import { FaGithub} from "react-icons/fa";
 
 import '../styles/ProjectDisplay.css';
 
@@ -15,14 +15,15 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name} </h1>
-     < a href={project.live}> <img src= {project.image} />  </a>
+      <a href={project.live}> <img src= {project.image} /></a>
       <p> 
          Skills:<span> {project.skills} </span>
       </p>
      
       <a href={project.github}>
-      <img src={Gith} alt="GitHub logo" className="footerIcon2 footerIcon"/>          
+      <FaGithub className="gitIcon2" />        
       </a>
+     
 
     </div>
   );

@@ -21,11 +21,11 @@
   }
 
   
-  .project-list {
+  .projectList {
     width: 70vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
   }
 
@@ -74,7 +74,7 @@
   
   @media only screen and (max-width: 800px) {
     .project-list {
-      grid-template-columns: 1fr ;
+      grid-template-columns: 1fr;
     }
   }
   

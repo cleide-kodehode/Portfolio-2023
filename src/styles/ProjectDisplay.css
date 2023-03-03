@@ -10,17 +10,17 @@
 
   
   .project h1  {
-    margin: 1px;
+    margin: 3px;
     font-size: 25px;
     text-decoration-line: underline;
     text-decoration-color: #0fe3ff;  
-    color:  #82076d; 
-   
+    color:  #82076d;    
   }
 
 
   .project img  {
     width: 600px;
+    height: 500px;
     border-radius: 10px;
   }
 
@@ -38,10 +38,18 @@
   }
 
 
-  .project svg  {
-    font-size: 40px;
-    color: #823d78;   
+  .gitIcon2  {
+    font-size: 45px;    
   }
+
+
+  .gitIcon2:hover {
+    background-color: #c41ade;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px
+  }
+
 
  
    
