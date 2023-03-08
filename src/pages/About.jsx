@@ -33,41 +33,19 @@ function About() {
         </div>           
         
         <div className='about-skills'>
-          <h1> My skills ⇢ </h1>
-          <div> 
-           <img src={Html} alt="Html logo" />
-          </div>
-
-          <div>  
+          <h2> My Skills</h2>
+          <div className='skills-icons'>
+            <img src={Html} alt="Html logo" />
             <img src={Css} alt="Css logo" />
-          </div>
-
-          <div>
             <img src={Js} alt="Javascript logo" />
-          </div>
-
-          <div>
             <img src={Reacticon} alt="React logo" />
-          </div>
-
-          <div>   
             <img src={Figma} alt="Figma logo" />
-          </div>
-
-          <div>
             <img src={Canva} alt="Canva logo" />
-          </div>
-
-          <div>    
             <img src={Github} alt="Github logo" />
-          </div>
-
-          <div>
             <img src={Git} alt="Git logo" />
           </div>
 
         </div>
-      
       </div>
 
       </main>  

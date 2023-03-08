@@ -22,21 +22,16 @@
 
  /* p */
 .about-content  {
-    font-size: 20px;
-    max-width: 1000px;
-    margin: 5px auto;
-    line-height: 34px;
+    font-size: 20px;  
+    max-width: 1000px;      
+    line-height: 1.6em;
     width: 100%; 
-    border-style:ridge;
+    border-style: ridge;
     border-width: 10px;
     border-color: #0fe3ff; 
     padding: 25px;      
 }
 
-
-.about-content p {
-    padding-left: 30px;
-}
 
 
 .about-content span {
@@ -67,22 +62,31 @@
 .about-skills {
     width: 100%;
     padding: 1.0em;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;    
 }
 
 
 
-.about-skills h1  {
+.about-skills h2  {
     font-size: 26px;
-    margin: -2px;
+    margin: -55px ;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    text-align: center;
     padding: 0.7em;
     color: #7d7789;
     text-decoration-line: underline;
     text-decoration-color: #0fe3ff;
     text-decoration-style: double;
 }
+
+.skills-icons {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 
 
 

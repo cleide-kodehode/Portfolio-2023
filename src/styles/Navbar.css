@@ -29,18 +29,20 @@
     font-size: 25px;
 }
 
-
+/*
 .toggleButton {
     font-size: 100px;    
 }
+*/
 
 
 .toggleButton button {
+    font-size: 3em;
     margin-right: 20px;
     background-color: transparent;
     border: none;
     color: white;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 
@@ -68,20 +70,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .toggleButton {
+    .toggleButton button {
         display: flex;
     }
     #close a {
         display:none;
     }
 }
-
+/*
 @media only screen and (min-width:600px) {
-    .toggleButton {
+    .toggleButton   {
         display: none;
     }
 }
-
+*/
 .hiddenLinks {
     display: none;
 }
