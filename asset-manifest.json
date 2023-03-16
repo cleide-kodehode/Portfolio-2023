@@ -1,9 +1,9 @@
 {
-  "main.css": "/Portfolio-2023/static/css/main.29c9bb2c.chunk.css",
-  "main.js": "/Portfolio-2023/static/js/main.06b82153.chunk.js",
-  "main.js.map": "/Portfolio-2023/static/js/main.06b82153.chunk.js.map",
-  "static/js/1.2f167a31.chunk.js": "/Portfolio-2023/static/js/1.2f167a31.chunk.js",
-  "static/js/1.2f167a31.chunk.js.map": "/Portfolio-2023/static/js/1.2f167a31.chunk.js.map",
+  "main.css": "/Portfolio-2023/static/css/main.bd8da649.chunk.css",
+  "main.js": "/Portfolio-2023/static/js/main.449ad2ae.chunk.js",
+  "main.js.map": "/Portfolio-2023/static/js/main.449ad2ae.chunk.js.map",
+  "static/js/1.851b8f8d.chunk.js": "/Portfolio-2023/static/js/1.851b8f8d.chunk.js",
+  "static/js/1.851b8f8d.chunk.js.map": "/Portfolio-2023/static/js/1.851b8f8d.chunk.js.map",
   "runtime~main.js": "/Portfolio-2023/static/js/runtime~main.19a01b20.js",
   "runtime~main.js.map": "/Portfolio-2023/static/js/runtime~main.19a01b20.js.map",
   "static/media/camper.png": "/Portfolio-2023/static/media/camper.581d88e4.png",
@@ -11,6 +11,7 @@
   "static/media/css.svg": "/Portfolio-2023/static/media/css.06bbc274.svg",
   "static/media/js.svg": "/Portfolio-2023/static/media/js.c85c484a.svg",
   "static/media/reacticon.svg": "/Portfolio-2023/static/media/reacticon.33d467af.svg",
+  "static/media/vscode.svg": "/Portfolio-2023/static/media/vscode.3f07f035.svg",
   "static/media/figma.svg": "/Portfolio-2023/static/media/figma.1159fe40.svg",
   "static/media/Canva.svg": "/Portfolio-2023/static/media/Canva.90928971.svg",
   "static/media/Github.svg": "/Portfolio-2023/static/media/Github.4e9aed05.svg",
@@ -22,8 +23,8 @@
   "static/media/Form.png": "/Portfolio-2023/static/media/Form.c4d392d0.png",
   "static/media/pizzashop.png": "/Portfolio-2023/static/media/pizzashop.c0fa683e.png",
   "static/media/logo..png": "/Portfolio-2023/static/media/logo..ba8beb8d.png",
-  "static/css/main.29c9bb2c.chunk.css.map": "/Portfolio-2023/static/css/main.29c9bb2c.chunk.css.map",
+  "static/css/main.bd8da649.chunk.css.map": "/Portfolio-2023/static/css/main.bd8da649.chunk.css.map",
   "index.html": "/Portfolio-2023/index.html",
-  "precache-manifest.6547b363afd2099929fd20d4a2971536.js": "/Portfolio-2023/precache-manifest.6547b363afd2099929fd20d4a2971536.js",
+  "precache-manifest.1285e84dd9963525061b3787040340e5.js": "/Portfolio-2023/precache-manifest.1285e84dd9963525061b3787040340e5.js",
   "service-worker.js": "/Portfolio-2023/service-worker.js"
 }
