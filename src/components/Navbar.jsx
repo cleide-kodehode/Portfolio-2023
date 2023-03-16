@@ -24,14 +24,7 @@ function Navbar() {
    
   
   return (  
-    <div className="navbar" id={expandNavbar ? "open" : "close"}>
-      <div className="toggleButton">
-        <button onClick= {() => {
-          setExpandNavbar((prev) => !prev);
-          }}>
-          <MdOutlineReorder /></button>
-      </div>
-
+    <div className="navbar" id={expandNavbar ? "open" : "close"}>     
       <div className="navbar-logo">
         <img src={Logo} alt="project logo" onClick={goHome} />
       </div>
@@ -41,7 +34,15 @@ function Navbar() {
         <Link to= "/about"> About </Link> 
         <Link to= "/projects"> Projects </Link>  
         <Link to= "/contact"> Contact </Link>        
-      </nav>      
+      </nav>    
+
+       <div className="toggleButton">
+        <button onClick= {() => {
+          setExpandNavbar((prev) => !prev);
+          }}>
+          <MdOutlineReorder />
+          </button>
+      </div>  
     </div>
   );
 }

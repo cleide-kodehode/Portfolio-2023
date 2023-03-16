@@ -6,6 +6,7 @@ import Html from '../img/html.svg';
 import Css from '../img/css.svg';
 import Js from '../img/js.svg';
 import Reacticon from '../img/reacticon.svg';
+import Vscode from '../img/vscode.svg';
 import Figma from '../img/figma.svg';
 import Canva from '../img/Canva.svg';
 import Github from '../img/Github.svg';
@@ -39,10 +40,11 @@ function About() {
             <img src={Css} alt="Css logo" />
             <img src={Js} alt="Javascript logo" />
             <img src={Reacticon} alt="React logo" />
-            <img src={Figma} alt="Figma logo" />
-            <img src={Canva} alt="Canva logo" />
+            <img src={Vscode} alt="vs code logo" />
             <img src={Github} alt="Github logo" />
             <img src={Git} alt="Git logo" />
+            <img src={Canva} alt="Canva logo" />
+            <img src={Figma} alt="Figma logo" />
           </div>
 
         </div>

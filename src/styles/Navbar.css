@@ -1,5 +1,5 @@
 
-.navbar {
+.navbar {    
     width: 100%;
     background:linear-gradient(20deg, #080334, #770666);
     display: flex;
@@ -21,7 +21,7 @@
     color:  #0fdbff;
 }
 
-
+/* styling the Links */
 .navbar a {
     color: white;
     text-decoration: none;
@@ -29,15 +29,11 @@
     font-size: 25px;
 }
 
-/*
-.toggleButton {
-    font-size: 100px;    
-}
-*/
 
 
+   /*Hamburger Menu*/
 .toggleButton button {
-    font-size: 3em;
+    font-size: 2.3em;
     margin-right: 20px;
     background-color: transparent;
     border: none;
@@ -45,10 +41,11 @@
     cursor: pointer; 
 }
 
-
-#open {
+/*
+#open  {
     height: 100vh;
 }
+  */
 
 
 #open .links {
@@ -56,6 +53,8 @@
     justify-content: flex-start;
     margin-top: 100px;
 }
+
+
 
 #open a {
     width: 100%;
@@ -65,7 +64,7 @@
 
 @media only screen and (max-width: 900px) {
     .navbar a {
-        width: 70px;        
+        width: 70px;     
     }
 }
 
@@ -73,17 +72,12 @@
     .toggleButton button {
         display: flex;
     }
+    
     #close a {
-        display:none;
-    }
-}
-/*
-@media only screen and (min-width:600px) {
-    .toggleButton   {
         display: none;
     }
 }
-*/
+
 .hiddenLinks {
     display: none;
 }
