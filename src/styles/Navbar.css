@@ -8,6 +8,21 @@
 }
 
 
+.hamburguer-dropdown-menu {
+    display: block;   
+    position: absolute; 
+    opacity: 0;
+}
+
+
+/*
+
+.hamburguer-dropdown-menu :hover {
+    color:  #0fdbff;
+}
+*/
+
+
 
 .navbar-logo {
     height: 83px;
@@ -21,7 +36,8 @@
     color:  #0fdbff;
 }
 
-/* styling the Links */
+
+/* styling the Links inside the navbar */
 .navbar a {
     color: white;
     text-decoration: none;
@@ -30,16 +46,17 @@
 }
 
 
-
    /*Hamburger Menu*/
 .toggleButton button {
     font-size: 2.3em;
     margin-right: 20px;
     background-color: transparent;
+    display: none;
     border: none;
-    color: white;
+    color:  #41f97e;
     cursor: pointer; 
 }
+
 
 /*
 #open  {
@@ -53,6 +70,7 @@
     justify-content: flex-start;
     margin-top: 100px;
 }
+
 
 
 
@@ -70,7 +88,24 @@
 
 @media only screen and (max-width: 600px) {
     .toggleButton button {
-        display: flex;
+        display: block;
+    }
+    .hamburguer-dropdown-menu {                   
+        position: absolute; 
+        list-style: none;  
+        right:-3%;        
+        top: 90px;
+        background-color: black ;
+        opacity: 0.5;
+        height: 22.5%;   
+        line-height: 1.5;         
+    }
+    .hamburguer-dropdown-menu :hover {
+        color:  #0fdbff;
+    }
+   
+    .links {
+        display: none;        
     }
     
     #close a {
@@ -78,17 +113,22 @@
     }
 }
 
+/*
 .hiddenLinks {
     display: none;
 }
+
 
 #open {
     height: 100px;
 }
 
+
 #open .links {
     flex-direction: row;
 }
+*/
+
 
 
 
