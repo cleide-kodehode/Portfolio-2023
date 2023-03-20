@@ -8,20 +8,11 @@
 }
 
 
-.hamburguer-dropdown-menu {
+.hamburger-dropdown-menu {
     display: block;   
     position: absolute; 
     opacity: 0;
 }
-
-
-/*
-
-.hamburguer-dropdown-menu :hover {
-    color:  #0fdbff;
-}
-*/
-
 
 
 .navbar-logo {
@@ -90,17 +81,18 @@
     .toggleButton button {
         display: block;
     }
-    .hamburguer-dropdown-menu {                   
+    .hamburger-dropdown-menu {                   
         position: absolute; 
         list-style: none;  
         right:-3%;        
         top: 90px;
         background-color: black ;
+       
         opacity: 0.5;
         height: 22.5%;   
         line-height: 1.5;         
     }
-    .hamburguer-dropdown-menu :hover {
+    .hamburger-dropdown-menu :hover {
         color:  #0fdbff;
     }
    
