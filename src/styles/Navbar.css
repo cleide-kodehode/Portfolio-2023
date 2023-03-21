@@ -8,10 +8,11 @@
 }
 
 
-.hamburger-dropdown-menu {
+.dropdown-menu-list {
     display: block;   
     position: absolute; 
-    opacity: 0;
+    visibility: hidden;
+       
 }
 
 
@@ -63,8 +64,6 @@
 }
 
 
-
-
 #open a {
     width: 100%;
     text-align: center;
@@ -81,20 +80,18 @@
     .toggleButton button {
         display: block;
     }
-    .hamburger-dropdown-menu {                   
+    .dropdown-menu-list {                   
         position: absolute; 
         list-style: none;  
         right:-3%;        
         top: 90px;
-        background-color: black ;
-       
-        opacity: 0.5;
+        background-color: black ;       
+        opacity: 0.5;  
+        visibility: visible;      
         height: 22.5%;   
-        line-height: 1.5;         
+        line-height: 1.5;              
     }
-    .hamburger-dropdown-menu :hover {
-        color:  #0fdbff;
-    }
+   
    
     .links {
         display: none;        

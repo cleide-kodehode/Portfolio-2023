@@ -29,14 +29,14 @@ function Navbar() {
         <img src={Logo} alt="project logo" onClick={goHome} />
       </div>
 
-      <div>
-        <ul className="hamburger-dropdown-menu">
-          <li><a href="home">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contact</a></li>
+      <div className="dropdown-menu">
+        <ul className="dropdown-menu-list">
+        <li><Link to= "/"> Home </Link> </li>
+        <li><Link to= "/about"> About </Link> </li>
+        <li><Link to= "/projects"> Projects </Link>  </li>
+        <li><Link to= "/contact"> Contact </Link>  </li>
         </ul>
-      </div>  
+      </div>   
 
       <nav className="links">
         <Link to= "/"> Home </Link> 
